@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processamento computacional</title>
+    <a class="navbar-brand" href="/">
+        <img src="https://www.epfundao.edu.pt/openschool_core/static/src/img/logo_w.png">
+      </a>
+</head>
+<body>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: lightblue;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: lightblue;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: lightblue;
+        }
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+        <h3 id="DarkModetext">Dark Mode is OFF</h3>
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+        </script>
+    <style>
+
+        body {
+            background-color: lightblue;
+            color: white;
+            margin-top: 7%;
+            margin-left: 5%;
+        }
+
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+            </style>
+            <h1>Processamento computacional</h1>
+            <h2>Introdução ao Processamento Computacional</h2>
+            <h4>O Processamento Computacional é a espinha dorsal da capacidade dos computadores de realizar operações complexas. Desde os primórdios da computação, a arquitetura de Von Neumann tem sido a base, estruturando a organização fundamental de um computador moderno.</h4>
+            <h2>Organização de um Computador</h2>
+            <h4>A arquitetura de Von Neumann, concebida por John von Neumann, define a organização básica de um computador. Nela, a CPU desempenha o papel crucial de executar instruções, enquanto a memória armazena dados e instruções. Dispositivos de entrada e saída proporcionam a interface com o mundo exterior.</h4>
+            <img src="./img/Diagrama-em-blocos-de-um-sistema-tipico-para-processamento-de-imagens-Em-geral-o.png" alt="">
+            <h2>Descrição de uma Tarefa</h2>
+            <h4>Tarefas em um contexto computacional referem-se a operações específicas que o sistema deve realizar. Isso pode incluir desde simples cálculos matemáticos até operações complexas de manipulação de dados. Cada tarefa passa por fases distintas, como entrada, processamento, saída e armazenamento.</h4>
+            <h2>Fase de Execução de uma Tarefa</h2>
+            <h4>A execução de uma tarefa segue um fluxo lógico. Inicia-se com a fase de entrada, onde dados são adquiridos. A CPU, núcleo de processamento, realiza o processamento desses dados. A fase de saída apresenta os resultados, e a fase de armazenamento garante a persistência de dados para uso futuro.</h4>
+            <h2>Unidades de Execução de Tarefas</h2>
+            <h4>O computador é uma orquestra de unidades de execução de tarefas. A CPU, com sua capacidade de processamento, a memória para armazenamento temporário e permanente, e os dispositivos de entrada e saída, colaboram para realizar operações complexas de maneira eficiente.</h4>
+            <h2>Computador como um Conjunto de Unidades de Execução de Tarefas</h2>
+            <h4>A interconexão entre essas unidades é vital. Uma comunicação eficaz entre a CPU, a memória e os dispositivos de entrada e saída é essencial para garantir a execução harmoniosa de tarefas variadas. A cooperação efetiva dessas unidades é a chave para o desempenho do sistema como um todo.</h4>
+            <h2>Componentes de um Computador</h2>
+            <h4>Cada componente desempenha um papel crucial. A CPU, com sua unidade de controle e unidade de cálculo, é o cérebro do computador. A memória, com diferentes tipos como RAM, ROM e Cache, gerencia o armazenamento. Os dispositivos de entrada e saída proporcionam a interface com o usuário.</h4>
+            <img src="./img/tl-img.png" alt="">
+            <h2>Descrição das Unidades Componentes</h2>
+            <h4>Uma compreensão aprofundada de cada componente é essencial. A CPU, com seus registradores e unidade de controle, é responsável por coordenar as operações. A memória, organizada em células, possui uma estrutura específica. Os dispositivos de entrada e saída facilitam a comunicação bidirecional entre o computador e o usuário.</h4>
+            <h2>Unidade de Memória</h2>
+            <h4>A estrutura da memória é composta por células, cada uma armazenando informações binárias. O modo de endereçamento permite acesso eficiente a dados, enquanto o modo de medição da capacidade de memória é crucial para dimensionar os recursos do sistema. Diferentes tipos de memória, como RAM e ROM, atendem a diferentes requisitos de armazenamento.</h4>
+            <img src="./img/mandala_2022.png" alt="">
+            <h2>Processador</h2>
+            <h4>O processador é o coração pulsante do computador. Com uma estrutura complexa, abriga a unidade de cálculo para operações matemáticas e lógicas, e a unidade de controle, que orquestra a execução de instruções. Este componente executa milhões de operações por segundo, tornando possível uma variedade de tarefas.</h4>
+            <h2>Conclusão</h2>
+            <h4>O entendimento profundo do processamento computacional é essencial para qualquer pessoa envolvida na área da tecnologia da informação. Este módulo oferece uma base sólida para compreender a organização interna de um computador, suas unidades de execução de tarefas e a sinergia necessária para realizar operações computacionais de maneira eficaz.</h4>
+   <body background="./img/1.png"></body>
+</body>
+</html>

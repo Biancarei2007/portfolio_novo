@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL</title>
+    <a class="navbar-brand" href="/">
+        <img src="https://www.epfundao.edu.pt/openschool_core/static/src/img/logo_w.png">
+      </a>
+</head>
+<body>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: lightblue;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: lightblue;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: lightblue;
+        }
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+        <h3 id="DarkModetext">Dark Mode is OFF</h3>
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+        </script>
+    <style>
+
+        body {
+            background-color: lightblue;
+            color: white;
+            margin-top: 7%;
+            margin-left: 5%;
+        }
+
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+            </style>
+        <h2>SQL</h2>
+        <h4>O SQL foi desenvolvido originalmente no início dos anos 70 nos laboratórios da IBM em San Jose.A linguagem é um grande padrão de banco de dados. Isto decorre da sua simplicidade e facilidade de uso. Ela se diferencia de outras linguagens de consulta a banco de dados no sentido em que uma consulta SQL especifica a forma do resultado e não o caminho para chegar a ele. Ela é uma linguagem declarativa em oposição a outras linguagens procedurais. Isto reduz o ciclo de aprendizado daqueles que se iniciam na linguagem.</h4>
+        <h4>Embora o SQL tenha sido originalmente criado pela IBM, rapidamente surgiram vários "dialetos" desenvolvidos por outros produtores. Essa expansão levou à necessidade de ser criado e adaptado um padrão para a linguagem. Esta tarefa foi realizada pela American National Standards Institute (ANSI) em 1986 e ISO em 1987.O SQL foi revisto em 1992 e a esta versão foi dado o nome de SQL-92. Foi revisto novamente em 1999 e 2003 para se tornar SQL:1999 (SQL3) e SQL:2003, respectivamente. O SQL:1999 usa expressões regulares de emparelhamento, queries recursivas e gatilhos (triggers). Também foi feita uma adição controversa de tipos não-escalados e algumas características de orientação a objeto. O SQL:2003 introduz características relacionadas ao XML, sequências padronizadas e colunas com valores de auto-generalização (inclusive colunas-identidade).</h4>
+        <h4>Tal como dito anteriormente, embora padronizado pela ANSI e ISO, possui muitas variações e extensões produzidos pelos diferentes fabricantes de sistemas gerenciadores de bases de dados. Tipicamente a linguagem pode ser migrada de plataforma para plataforma sem mudanças estruturais principais.Outra aproximação é permitir para código de idioma procedural ser embutido e interagir com o banco de dados. Por exemplo, o Oracle e outros incluem Java na base de dados, enquanto o PostgreSQL permite que funções sejam escritas em Perl, Tcl, ou C, entre outras linguagens.</h4>
+        <img src="./Img/1.png" alt="">
+        <h2>Linguagem de Definição de Dados</h2>
+        <h4>O segundo grupo é a DDL (Data Definition Language - Linguagem de Definição de Dados). Uma DDL permite ao utilizador definir tabelas novas e elementos associados. A maioria dos bancos de dados de SQL comerciais tem extensões proprietárias no DDL. Os comandos básicos da DDL são poucos:</h4>
+        <h4><li>CREATE: cria um objeto dentro da base de dados.</li></h4>
+        <h4><li>DROP: apaga um objeto do banco de dados.</li></h4>
+        <h4>Alguns sistemas de banco de dados usam o comando ALTER, que permite ao usuário alterar um objeto, por exemplo, adicionando uma coluna a uma tabela existente.Outros comandos DDL:</h4>
+        <h4><li>CREATE TABLE</li></h4>
+        <h4><li>CREATE INDEX</li></h4>
+        <h4><li>CREATE VIEW</li></h4>
+        <h4><li>ALTER TABLE</li></h4>
+        <h4><li>ALTER INDEX</li></h4>
+        <h4><li>DROP INDEX</li></h4>
+        <h4><li>DROP VIEW</li></h4>
+        <img src="./Img/2.png" alt="">
+        <body background="./Img/background-5035258_960_720 (1).png"></body>
+</body>
+</html>
